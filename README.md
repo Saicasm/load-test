@@ -10,6 +10,7 @@ This repository contains a load testing and benchmarking application designed fo
 - [ ] Custom test scripts for various scenarios
 - [ ] Integration with Grafana k6
 - [ ] Metrics export to Grafana for real-time monitoring and analysis
+- [ ] CLI to generate scenarios [Use plop.js and hbs template files]
 
 ## Prerequisites
 
@@ -21,7 +22,7 @@ This repository contains a load testing and benchmarking application designed fo
 1. Clone the repository:
 
    ```
-   git clone [todo]
+   git clone https://github.com/Saicasm/load-test.git
    cd k6-open-loop-testing
    ```
 
