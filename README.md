@@ -6,10 +6,10 @@ This repository contains a load testing and benchmarking application designed fo
 
 ## Features
 
-- [ ] Open-loop load testing and benchmarking
+- [X] Open-loop load testing and benchmarking
 - [ ] Custom test scripts for various scenarios
-- [ ] Integration with Grafana k6
-- [ ] Metrics export to Grafana for real-time monitoring and analysis
+- [X] Integration with Grafana k6
+- [X] Metrics export to Grafana for real-time monitoring and analysis
 - [ ] CLI to generate scenarios [Use plop.js and hbs template files]
 
 ## Prerequisites
