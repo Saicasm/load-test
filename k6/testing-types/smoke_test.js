@@ -6,7 +6,7 @@ export const options = {
   duration: '1m',   // Short duration or few iterations
 };
 export default () => {
-  const urlRes = http.get(${__ENV.TEST_URL});
+  const urlRes = http.get(`${__ENV.TEST_URL}`);
   sleep(1);
   // Do some processing with response if needed
 

@@ -11,7 +11,7 @@ export const options = {
 };
 
 export default () => {
-    const urlRes = http.get(${__ENV.TEST_URL});
+    const urlRes = http.get(`${__ENV.TEST_URL}`);
     sleep(1);
     // Do some processing with response if needed
 
