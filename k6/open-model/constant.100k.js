@@ -25,7 +25,7 @@ export const options = {
 
 // Default function that will be executed for each iteration
 export default function() {
-  const response = http.get('http://localhost:8081/api/v1/load/health');
+  const response = http.get(`${__ENV.TEST_URL}`);
   
   // Custom check function which displays as a part of report at the end of the script
   const success = check(response, {

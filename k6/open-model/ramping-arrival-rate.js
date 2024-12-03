@@ -34,5 +34,5 @@ export const options = {
 };
 
 export default function () {
-  http.get(${__ENV.TEST_URL});
+  http.get(`${__ENV.TEST_URL}`);
 }
